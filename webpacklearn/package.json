@@ -4,13 +4,17 @@
   "description": "Sample webpack project",
   "scripts": {
     "start": "webpack",
-    "server" : "webpack-dev-server --open",
-    "test" : "echo \"Error : no test specified\" && exit 1"
+    "server": "webpack-dev-server --open",
+    "test": "echo \"Error : no test specified\" && exit 1"
   },
   "author": "zhang",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.30.1"
   }
 }

@@ -1,4 +1,4 @@
-/******/ (function(modules) { // webpackBootstrap
+(function(e, a) { for(var i in a) e[i] = a[i]; }(this, /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -72,4 +72,4 @@ eval("for(var i = 0,j = 10;i < j;i++){\r\n    console.log(i);\r\n}//# sourceURL=
 
 /***/ })
 
-/******/ });
+/******/ })));
